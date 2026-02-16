@@ -1,0 +1,10 @@
+﻿import sqlite3
+conn = sqlite3.connect(r"C:\InfinityMesh\memory\state\memory.db")
+c = conn.cursor()
+c.execute("CREATE TABLE IF NOT EXISTS sessions(id TEXT, created_at TEXT)")
+c.execute("CREATE TABLE IF NOT EXISTS prompts(id TEXT, content TEXT)")
+c.execute("CREATE TABLE IF NOT EXISTS responses(id TEXT, content TEXT)")
+c.execute("CREATE TABLE IF NOT EXISTS audit(id TEXT, action TEXT, timestamp TEXT)")
+conn.commit()
+conn.close()
+print("Memory Initialized")

@@ -1,0 +1,15 @@
+﻿tunnel: vizual-x
+credentials-file: C:\ProgramData\cloudflared\vizual-x.json
+
+ingress:
+  - hostname: vizual-x.com
+    service: https://vizual-x-gateway.run.app
+  - hostname: api.vizual-x.com
+    service: https://mcp-router.run.app
+  - service: http_status:404
+# --- alpha-gpt bridge ---
+  - hostname: alpha.vizual-x.com
+    service: http://localhost:3333
+# --- MCP ROUTER ---
+  - hostname: mcp.vizual-x.com
+    service: http://localhost:4444

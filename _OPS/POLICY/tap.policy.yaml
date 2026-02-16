@@ -1,0 +1,9 @@
+﻿TAP_PROTOCOL:
+  hierarchy:
+    - Policy
+    - Authority
+    - Truth
+  enforcement:
+    validation_required: true
+    mutation_without_validation: false
+    audit_logging: true

@@ -1,0 +1,156 @@
+{
+  "agents": {
+    "automl": {
+      "automl.py": "file"
+    },
+    "ingestion": {},
+    "sandbox": {}
+  },
+  "automl": {
+    "automl.js": "file",
+    "Dockerfile": "file"
+  },
+  "check_audit.py": "file",
+  "core": {
+    "federation": {},
+    "policy-engine": {
+      "validator.py": "file"
+    },
+    "rehydrate": {
+      "rehydrate.py": "file"
+    },
+    "router": {
+      "mesh_service.py": "file",
+      "router.py": "file"
+    },
+    "supervisor": {
+      "supervisor.py": "file"
+    },
+    "system": {
+      "state_service.py": "file"
+    },
+    "tree": {
+      "tree_engine.py": "file",
+      "tree_service.py": "file"
+    }
+  },
+  "dashboard": {
+    "pwa": {
+      "package.json": "file"
+    }
+  },
+  "Discovery_Tunnel_Docker_20260215_171255": {
+    ".wslconfig": "file",
+    "cloudflared_location.txt": "file",
+    "cloudflared_service_status.csv": "file",
+    "cloudflared_tunnel_info.json": "file",
+    "cloudflared_tunnel_list.json": "file",
+    "cloudflared_version.txt": "file",
+    "config.yml": "file",
+    "docker_containers.txt": "file",
+    "docker_disk_usage.txt": "file",
+    "docker_images.txt": "file",
+    "docker_info.txt": "file",
+    "docker_inspect_32e7e2d69fe6.json": "file",
+    "docker_inspect_485aca94d6c6.json": "file",
+    "docker_inspect_6dae10bba094.json": "file",
+    "docker_inspect_737ce99ed544.json": "file",
+    "docker_inspect_7e1485d8a0ce.json": "file",
+    "docker_inspect_9570c582fe25.json": "file",
+    "docker_inspect_9665d595932e.json": "file",
+    "docker_inspect_bf0923c59b85.json": "file",
+    "docker_networks.txt": "file",
+    "docker_recent_events.txt": "file",
+    "docker_running_containers.txt": "file",
+    "docker_version.txt": "file",
+    "docker_volumes.txt": "file",
+    "firewall_allprofiles.txt": "file",
+    "ipconfig_all.txt": "file",
+    "network_interfaces.txt": "file",
+    "network_ipaddresses.txt": "file",
+    "network_routes.txt": "file",
+    "route_print.txt": "file",
+    "wsl_distros.txt": "file"
+  },
+  "Discovery_Tunnel_Docker_20260215_171255.zip": "file",
+  "docker-compose.mesh.yml": "file",
+  "docs": {
+    "agents": {},
+    "architecture": {},
+    "cloud": {},
+    "dashboard": {},
+    "federation": {},
+    "FOLDER_TREE.json": "file",
+    "governance": {},
+    "infrastructure": {},
+    "memory": {},
+    "mesh": {},
+    "README.md": "file",
+    "REGISTRY.json": "file",
+    "ROADMAP.md": "file",
+    "router": {},
+    "SYNC_MANIFEST.json": "file",
+    "SYSTEM_BLUEPRINT.md": "file",
+    "TODO.json": "file"
+  },
+  "full system.zip": "file",
+  "hb_check.py": "file",
+  "hb_strict.py": "file",
+  "hb_validate.py": "file",
+  "hb_validate_final.py": "file",
+  "hb_validate_strict.py": "file",
+  "infra": {
+    "docker-compose.yml": "file"
+  },
+  "logs": {
+    "router.log": "file"
+  },
+  "memory": {
+    "Dockerfile": "file",
+    "logs": {},
+    "memory.js": "file",
+    "state": {
+      "memory.db": "file",
+      "tree_state.json": "file"
+    },
+    "vector": {}
+  },
+  "memory_exec_fix.py": "file",
+  "memory_exec_test.py": "file",
+  "memory_init.py": "file",
+  "mesh_check.py": "file",
+  "mesh_validation.py": "file",
+  "nats": {
+    "Dockerfile": "file"
+  },
+  "nats_publish_test.py": "file",
+  "router": {
+    "Dockerfile": "file"
+  },
+  "scraper": {
+    "Dockerfile": "file",
+    "scraper.js": "file"
+  },
+  "scripts": {
+    "docs-sync.ps1": "file"
+  },
+  "sqlite_check.py": "file",
+  "sqlite_validate.py": "file",
+  "supervisor": {
+    "Dockerfile": "file",
+    "supervisor.ps1": "file"
+  },
+  "tap-validator": {
+    "Dockerfile": "file",
+    "tap.js": "file"
+  },
+  "tap_exec_fix.py": "file",
+  "tap_exec_test.py": "file",
+  "_OPS": {
+    "AUDIT": {},
+    "POLICY": {
+      "tap.policy.yaml": "file"
+    },
+    "STATE": {}
+  }
+}

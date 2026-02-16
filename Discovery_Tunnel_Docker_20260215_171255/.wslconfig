@@ -1,0 +1,8 @@
+﻿[wsl2]
+memory=20GB
+processors=6
+swap=6GB
+localhostForwarding=true
+pageReporting=true
+nestedVirtualization=true
+autoMemoryReclaim=gradual

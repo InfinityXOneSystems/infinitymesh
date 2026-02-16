@@ -1,0 +1,12 @@
+﻿{
+    "version":  "1.0.0",
+    "node_type":  "sovereign_mesh_node",
+    "authority":  "local_primary",
+    "hybrid_enabled":  false,
+    "governance":  "TAP",
+    "last_bootstrap":  "2026-02-15T22:24:50",
+    "phase":  "Phase_3C_Observability",
+    "last_validation":  "2026-02-16T01:05:49"
+}
+
+

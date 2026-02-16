@@ -1,0 +1,14 @@
+﻿{
+  "sync_targets": [
+    "README.md",
+    "SYSTEM_BLUEPRINT.md",
+    "ROADMAP.md",
+    "TODO.json",
+    "FOLDER_TREE.json"
+  ],
+  "enforcement": {
+    "policy_required": true,
+    "audit_required": true,
+    "rehydrate_required": true
+  }
+}
